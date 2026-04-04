@@ -96,14 +96,15 @@ The close match confirms correctness of the implementation.
 ## Project Structure
 
 ```
-.
-├── diabetes_dataset.csv
-├── diabetes_train.csv
-├── diabetes_test.csv
-├── logistic_regression_scratch.ipynb
-├── alpha_tuning.png
-├── lambda_tuning.png
-└── README.md
+├── data/
+│   ├── diabetes_dataset.csv
+│   ├── diabetes_train.csv
+│   └── diabetes_test.csv
+├── notebooks/
+│   └── diabetes_detection_train.ipynb
+├── .gitignore
+├── README.md
+└── requirements.txt
 ```
 
 ---
