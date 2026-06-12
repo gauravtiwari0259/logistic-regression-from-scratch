@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("🩺 Diabetes Detection App")
+st.title("Diabetes Detection App")
 
 pregnancies = st.number_input("Pregnancies", min_value=0)
 glucose = st.number_input("Glucose", min_value=0)
